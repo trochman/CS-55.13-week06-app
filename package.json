@@ -1,0 +1,25 @@
+{
+  "name": "CS5513-Week06-TonyRochman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.0.1",
+    "next": "^12.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trochman/CS-55.13-week06-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trochman/CS-55.13-week06-app/issues"
+  },
+  "homepage": "https://github.com/trochman/CS-55.13-week06-app#readme"
+}

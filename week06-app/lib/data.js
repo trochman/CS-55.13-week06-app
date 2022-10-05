@@ -3,9 +3,9 @@ import firebaseData from "./firebase_access";
 export async function getDataIds() {
   let data = [];
   try {
-    const snap = await firebase_access.collection("data").get();
+    const snapshot = await firebaseData.collection("data").get();
     
-    snap.forEach(
+    snapshot.forEach(
       (document) => {
         data.push(
           {
@@ -23,7 +23,7 @@ export async function getDataIds() {
 }
 
 export async function getData(idRequested) {
-  const document = await firebase_access.collection("data").doc(idRequested).get();
+  const document = await firebaseData.collection("data").doc(idRequested).get();
 
   let data;
   if (!document.empty) {
